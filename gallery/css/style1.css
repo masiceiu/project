@@ -1,0 +1,228 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+
+/*  == Global Settings ==   */
+body {
+  background: #ececec;
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+  line-height: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600; 
+  font-family: 'Open Sans', sans-serif;
+  color:#4e4e4e;
+}
+
+h1{
+  font-size: 36px;
+  color:#fff;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 16px;
+}
+
+a {
+  color: #c52d2f;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition:  color 300ms, background-color 300ms;
+  transition:  color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+  color: #d43133;
+}
+
+hr {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+
+
+.btn-primary {
+  padding: 8px 20px;
+  background: #c52d2f;
+  color: #fff;
+  border-radius: 4px;
+  border:none;
+  margin-top: 10px;
+}
+
+
+.btn-primary:hover, 
+.btn-primary:focus{
+  background: #c52d2f;
+  outline: none;
+  box-shadow: none;
+} 
+
+.btn-transparent {
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.btn-transparent:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover,
+a:focus {
+  color: #111;
+  text-decoration: none;
+  outline: none;
+}
+
+/**  === Header Section === **/
+#header{
+	margin-bottom: 15px;
+}
+
+/*  == Bar for Header and Footer  ==  */
+.top-bar {
+  padding: 5px 0px;
+  background: #e7e7e7;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+}
+
+.bottom-bar{
+	border-bottom: 0px;
+	border-top: 1px solid #222;
+	margin-top: 15px;
+}
+
+
+/*  ===   Food Containers ===  */
+.select-btn{
+	height: 50px;
+	width: 120px;
+	background: #454a4d;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.select-btn.active{
+	background: #ea8821;
+}
+.food-container{
+	max-height: 300px;
+	overflow-y: scroll;
+	background: white;
+}
+.selected-food-container{
+	  background: white;
+  margin-bottom: 15px;
+}
+
+/* == Section Head == */
+.section-head{
+	background: rgb(69, 74, 77);
+  color: white;
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 15px
+}
+.section-head span{
+	line-height: 40px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+/*  == Food Item ==  */
+.food-items{
+	float: left;
+	border: 1px dotted black;
+	padding: 20px;
+}
+
+.click-region{
+	cursor: pointer;
+}
+
+.item-price{
+	text-align: center;
+  top: 80px;
+  width: 76%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  position: absolute;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.item-name{
+	text-align: center;
+  bottom: 20px;
+  width: 76%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  position: absolute;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.item-qty{
+	  text-align: center;
+  right: 20px;
+  top: 20px;
+  width: 10%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  position: absolute;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* ==  Total Amount == */
+.total-amount{
+	background: #ea8821;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+/* == User == */
+.user-box{
+	text-align: center;
+    border: 1px solid black;
+    padding: 15px 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #ECECEC;
+}
+.user-box:hover{
+  border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.user-info{
+	background: white;
+  padding: 20px;
+}
